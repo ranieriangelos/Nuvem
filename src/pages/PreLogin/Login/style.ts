@@ -4,5 +4,5 @@ export const LoginContent = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px 0 0 0;
+    margin: 20px 0 50px 0;
 `

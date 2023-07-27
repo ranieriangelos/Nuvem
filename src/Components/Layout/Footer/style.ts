@@ -6,7 +6,7 @@ export const FooterMain = styled.div`
     background-color: #2f3535;
     width: 100%;
     height: 100tr;
-    margin: 50px 0 0 0;
+    margin: 0px 0 0 0;
     border-top: solid 7px #00b5ce;
     padding: 0 0 5px;
     `;

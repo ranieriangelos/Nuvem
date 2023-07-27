@@ -1,64 +1,39 @@
 import React from 'react';
-import GlobalStyles from './styles/GlobalStyles';
-import Home from './pages/Home';
-import Candidato from './pages/Candidato';
-import Jobs from './pages/Jobs';
-import Empresas from './pages/Empresas';
-import Login from './pages/Login';
+import Home from './pages/PreLogin/Home';
+import Candidato from './pages/PostLogin/Pages/Perfil';
+import Jobs from './pages/PreLogin/Jobs';
+import Empresas from './pages/PreLogin/Empresas';
+import Login from './pages/PreLogin/Login';
 import { BrowserRouter as Router, Route, Link, Routes  } from 'react-router-dom';
-import { Header, ImgLogo, ListMenu, MenuItens, Point, MenuHeader } from './Components/Layout/MainHeader/style';
 import Footer from './Components/Layout/Footer';
+import FormularioDadosPessoais from './Components/FormCadastroDadosPessoais'
+import FormularioEndereco from './Components/FormCadastroEndereco'
+import FormularioAcesso from './Components/FormCadastroAcesso'
+import { RequireAuth } from './contexts/Auth/RequireAuth';
+import Dashboard from './pages/PostLogin/Pages/Dashboard';
 
 
 const App: React.FC = () =>{
   return(
     <>
     <Router>
-    <Header>
-       
-       <MenuHeader>
-           <ImgLogo/>
-           <ListMenu>
-               <MenuItens>
-                   <Point></Point>
-                   <Link to='/'>Home</Link>        
-               </MenuItens>
-               <MenuItens>
-                   <Point></Point>
-                   <Link to='/empresas'>Empresas</Link>
-               </MenuItens>
-              
-               <MenuItens>
-                   <Point></Point>
-                   <Link to='/jobs'>Vagas</Link>
-               </MenuItens>
-               <MenuItens>
-                   <Point></Point>
-                   <Link to='/login'>Login</Link>
-               </MenuItens>
-           </ListMenu>
-       </MenuHeader>
-       
-       </Header>
+      
       <Routes>
         <Route path='/' element={<Home></Home>} />
         <Route path='/candidato' element={<Candidato></Candidato>} />
         <Route path='/jobs' element={<Jobs></Jobs>} />
         <Route path='/login' element={<Login></Login>} />
         <Route path='/empresas' element={<Empresas></Empresas>} />
+        <Route path='/FormCV' element={<FormularioDadosPessoais></FormularioDadosPessoais>} />
+        <Route path='/FormEnd' element={<FormularioEndereco></FormularioEndereco>} />
+        <Route path='/FormAcesso' element={<FormularioAcesso></FormularioAcesso>} />
+        <Route path='/Dashboard' element={<RequireAuth><Dashboard/></RequireAuth>} />
+
+
       </Routes>
     </Router>  
     <Footer></Footer>
-
-
-
 </>
-
-
-
-
-
-
     );
 }
 

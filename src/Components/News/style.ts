@@ -5,6 +5,7 @@ export const NewsHome = styled.div`
     justify-content: center;
     display: flex;
     text-align: center;
+    margin: 0 0 50px 0;
 
     .MainNews{
         width: 70%;
