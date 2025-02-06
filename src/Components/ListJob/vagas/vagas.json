@@ -1,0 +1,95 @@
+[
+  {
+    "tipo": "CLT",
+    "titulo": "Desenvolvedor Full-Stack",
+    "empresa": "Google",
+    "descricao": "Buscamos um Desenvolvedor Full-Stack para integrar nosso time de tecnologia. O profissional será responsável por desenvolver e manter aplicações web e mobile, desde o front-end até o back-end. Requisitos: experiência com React, Node.js, bancos de dados SQL e NoSQL, e conhecimento em metodologias ágeis. Oferecemos ambiente descontraído, oportunidades de crescimento e benefícios como vale-refeição, plano de saúde e gympass.",
+    "dataPublicacao": "19/07/2023",
+    "localizacao": "São Paulo",
+    "experiencia": "1-2 anos",
+    "salario": "R$ 3000 - 4000",
+    "candidaturas": 30,
+    "curtidas": 12
+  },
+  {
+    "tipo": "Freelance",
+    "titulo": "Desenvolvedor Front-end",
+    "empresa": "NuvemTech",
+    "descricao": "Procuramos um Desenvolvedor Front-end para atuar em projetos de curta e média duração. O profissional será responsável por criar interfaces modernas e responsivas, utilizando tecnologias como React, Vue.js e Sass. É desejável experiência com integração de APIs e ferramentas de versionamento como Git. Pagamento por projeto ou hora, com possibilidade de renovação.",
+    "dataPublicacao": "20/07/2023",
+    "localizacao": "Remoto",
+    "experiencia": "2-3 anos",
+    "salario": "R$ 2000 - 4000",
+    "candidaturas": 15,
+    "curtidas": 21
+  },
+  {
+    "tipo": "Estagio",
+    "titulo": "Estagiário em TI",
+    "empresa": "NuvemTech",
+    "descricao": "Estamos em busca de um Estagiário em TI para auxiliar na manutenção de sistemas e infraestrutura de TI. O candidato terá a oportunidade de aprender sobre administração de redes, suporte técnico e desenvolvimento de scripts. Requisitos: cursando graduação em Ciência da Computação, Engenharia da Computação ou áreas afins. Oferecemos bolsa-auxílio, vale-transporte e experiência prática em um ambiente dinâmico.",
+    "dataPublicacao": "21/07/2023",
+    "localizacao": "São Paulo",
+    "experiencia": "0-1 ano",
+    "candidaturas": 10,
+    "curtidas": 13
+  },
+  {
+    "tipo": "Estagio",
+    "titulo": "Estagiário em Design",
+    "empresa": "Itau",
+    "descricao": "Procuramos um Estagiário em Design para auxiliar na criação de peças gráficas e conteúdo para redes sociais. O candidato terá a oportunidade de trabalhar com ferramentas como Adobe Photoshop, Illustrator e Figma. Requisitos: cursando Design Gráfico, Publicidade ou áreas afins. Oferecemos bolsa-auxílio, vale-transporte e experiência em um ambiente criativo e colaborativo.",
+    "dataPublicacao": "21/07/2023",
+    "localizacao": "Rio de Janeiro",
+    "experiencia": "0-1 ano",
+    "candidaturas": 10,
+    "curtidas": 43
+  },
+  {
+    "tipo": "CLT",
+    "titulo": "Analista de Dados",
+    "empresa": "DataCloud",
+    "descricao": "Estamos contratando um Analista de Dados para atuar na análise e interpretação de dados, criação de dashboards e relatórios estratégicos. Requisitos: experiência com ferramentas como Power BI, Tableau, Python e SQL. Oferecemos salário competitivo, plano de carreira, benefícios como vale-refeição, plano de saúde e ambiente de trabalho inovador.",
+    "dataPublicacao": "22/07/2023",
+    "localizacao": "Remoto",
+    "experiencia": "2-4 anos",
+    "salario": "R$ 5000 - 7000",
+    "candidaturas": 25,
+    "curtidas": 18
+  },
+  {
+    "tipo": "Freelance",
+    "titulo": "UX/UI Designer",
+    "empresa": "InovaDesign",
+    "descricao": "Buscamos um UX/UI Designer para atuar em projetos de design de interfaces e experiência do usuário. O profissional será responsável por criar wireframes, protótipos e designs finais, garantindo a usabilidade e acessibilidade. Requisitos: experiência com Figma, Adobe XD e conhecimento em design responsivo. Pagamento por projeto, com possibilidade de parceria contínua.",
+    "dataPublicacao": "23/07/2023",
+    "localizacao": "Remoto",
+    "experiencia": "3-5 anos",
+    "salario": "R$ 3000 - 5000",
+    "candidaturas": 20,
+    "curtidas": 30
+  },
+  {
+    "tipo": "CLT",
+    "titulo": "Engenheiro de Software Sênior",
+    "empresa": "TechSolutions",
+    "descricao": "Procuramos um Engenheiro de Software Sênior para liderar projetos de desenvolvimento de software, desde a concepção até a implementação. Requisitos: experiência com arquitetura de sistemas, microserviços, cloud computing (AWS, Azure) e liderança de equipes. Oferecemos salário atrativo, bônus por desempenho, plano de saúde e ambiente de trabalho flexível.",
+    "dataPublicacao": "24/07/2023",
+    "localizacao": "Curitiba",
+    "experiencia": "5+ anos",
+    "salario": "R$ 10000 - 15000",
+    "candidaturas": 12,
+    "curtidas": 22
+  },
+  {
+    "tipo": "Estagio",
+    "titulo": "Estagiário em Marketing Digital",
+    "empresa": "DigitalMinds",
+    "descricao": "Estamos em busca de um Estagiário em Marketing Digital para auxiliar na criação e execução de campanhas digitais, gestão de redes sociais e análise de métricas. Requisitos: cursando Publicidade, Marketing ou áreas afins. Oferecemos bolsa-auxílio, vale-transporte e experiência em um ambiente dinâmico e inovador.",
+    "dataPublicacao": "25/07/2023",
+    "localizacao": "Belo Horizonte",
+    "experiencia": "0-1 ano",
+    "candidaturas": 18,
+    "curtidas": 27
+  }
+]

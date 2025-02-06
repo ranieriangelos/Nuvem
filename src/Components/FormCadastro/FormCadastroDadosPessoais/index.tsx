@@ -3,7 +3,7 @@ import {FormularioCV} from "./style";
 import "react-datepicker/dist/react-datepicker.css";
 import "moment/locale/pt-br"
 import {Link} from 'react-router-dom';
-import MainHeader from "../Layout/MainHeader";
+import MainHeader from "../../Layout/MainHeader";
 
 
 const FormCV: React.FC = () => {

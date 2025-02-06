@@ -1,9 +1,5 @@
 import React from "react";
 import { ListMainVagas } from "./style";
-import VagaCLT from "../Components/TypeVagas/CLT"
-import VagaFreelance from "../Components/TypeVagas/Freelance";
-import VagaPartner from "../Components/TypeVagas/Partner";
-
 
 
 const ListVagas: React.FC = () =>{
@@ -18,11 +14,7 @@ const ListVagas: React.FC = () =>{
                 <button className="buttonFilter">///Filtros</button>
             </div>
             <div className="ScrollContent">
-                <VagaCLT/>
-                <VagaFreelance/>
-                <VagaPartner/>
-                <VagaPartner/>
-                <VagaCLT/>
+                
             </div>
 
         </ListMainVagas>

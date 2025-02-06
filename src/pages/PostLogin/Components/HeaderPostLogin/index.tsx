@@ -37,7 +37,7 @@ const HeaderPostLogin: React.FC = () =>{
             <Notification><BsBell></BsBell></Notification>
             <FotoPerfil></FotoPerfil>
             <MenuDropDown>
-                <button onClick={toogleDropdown} className='menuDropDownButton'>☰</button>
+                <button onMouseOver={toogleDropdown} className='menuDropDownButton'>☰</button>
                 {isOpen &&(
                     <ul className='ListMenu'>
                         <li className='itemMenu'><Link to='/Configuracoes'>///perfil</Link></li>

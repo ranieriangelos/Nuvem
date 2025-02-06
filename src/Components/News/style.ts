@@ -24,7 +24,7 @@ export const NewsHome = styled.div`
     };
     .MainNews>h2{ 
         text-align: left;
-        font-size: 13pt;
+        font-size: 13pt; 
         font-weight: normal;
         width: 100%;
         margin: 40px 0 0 0;
@@ -35,17 +35,40 @@ export const NewsHome = styled.div`
 `
 
 export const ListNews = styled.ul`
-        list-style: none;
-        border: solid 1px #a8b3b3 ;
-        width: 26%;
-        display: flex;
+        width: 200px;
+        padding: 0px 0;
+        display: inline-flex;
+        margin: 40px 1vw 0px;
         float: left;
-        margin: 30px 1% 0 1%;
+        border: solid .5px    #a8b3b3;
+        border-radius: 10px;
+        justify-content: center;
+        list-style: none;
 `
 
 export const ItemList = styled.li`
             text-align: center;
+        img{
+            width: 200px;
+            height: 200px;
+            background-color: red; 
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
         >a{
             text-decoration: none;
+            font-weight: normal;
+            color: #2f3535;
+        }
+        h2{
+            font-size: 12pt;
+            text-transform: uppercase;
+            color:rgb(113, 117, 117);
+        }
+        h3{
+            font-size: 10pt;
+            color:rgb(102, 110, 110);
+            height: 70px;
         }
 `
